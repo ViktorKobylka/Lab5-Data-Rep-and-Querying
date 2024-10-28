@@ -53,6 +53,8 @@ app.get('/api/movies', (req, res) => {
     res.status(201).json({ myMovies:movies });
 });
 
+app.use(express.static('public'));
+
 const path = require('path');
 
 app.get('/index', (req, res) => {
