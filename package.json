@@ -1,0 +1,15 @@
+{
+  "name": "lab5-data-rep-and-querying",
+  "version": "1.0.0",
+  "description": "\"# Lab5-Data-Rep-and-Querying\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
