@@ -66,3 +66,12 @@ app.get('/name', (req, res) => {
     const lastname = req.query.lastname;
     res.send(`Hello ${firstname} ${lastname}`);
 });
+
+const bodyParser = require('body-parser');
+app.use(bodyParser.urlencoded({ extended: true }));
+
+app.post('/name', (req, res) => {
+    const firstname = req.body.firstname;
+    const lastname = req.body.lastname;
+    res.send(`Hello ${firstname} ${lastname}`);
+});
